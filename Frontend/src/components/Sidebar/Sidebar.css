@@ -1,0 +1,15 @@
+.sidebar-container{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    gap: 50px;
+    height: 100%;
+}
+
+.left-panel-box{
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.left-panel-box::-webkit-scrollbar {
+    display: none;
+}
